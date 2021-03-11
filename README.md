@@ -24,7 +24,7 @@ Folders with results for CNN, SML algorithms are generated within each of the .S
 
 
 
-#### **SML BASED ALL PRODUCTS (Multiprocessing mode)**
+#### **SYMBOLIC MACHINE LEARNING (SML) BASED ALL PRODUCTS (Multiprocessing mode)**
 Generates all SML based products (BUILT,SPOP,SMOD) for a given directory containing a list of Sentinel2(.SAFE) or Landsat8 satellite folders.
 
 | Parameter | Use |
@@ -64,7 +64,7 @@ $ python3 cnn-all-products.py -c "/netscratch/delhikar/GHS-SML/version4/config.j
 ```
 
 
-#### **SML TRAINING DATA DOWNLOADER**
+#### **SYMBOLIC MACHINE LEARNING (SML) TRAINING DATA DOWNLOADER**
 
 Execute in the current directory you want to download and organize training data for SML automatically. (Change username and password in the code).
 
@@ -73,7 +73,7 @@ Command:
 $ python3 s2-data-downloader.py 
 ```
 
-#### **SML BASED BUILT TRAINING**
+#### **SYMBOLIC MACHINE LEARNING (SML) BASED BUILT TRAINING**
 
 Trains SML algorithm using above training data generated in previous step for a given number of bands.
 
@@ -94,7 +94,7 @@ $ python3 sml-built-train.py -c "/netscratch/delhikar/GHS-SML/version4/config.js
 ```
 
 
-#### **SML BASED BUILT**
+#### **SYMBOLIC MACHINE LEARNING (SML) BASED BUILT**
 
 Generates SML-BUILT(prediction and confidence) products for a given multispectral image using specified number of bands
 
@@ -118,7 +118,7 @@ $ python3 sml-built-generator.py -c "/netscratch/delhikar/GHS-SML/version4/confi
 
 
 
-#### **POP**
+#### **POPULATION GRID (POP)**
 
 Generates POP product for a given BUILT(prediction and confidence) products resulting from the above step
 
