@@ -1,5 +1,5 @@
 # SATELLITE IMAGE ANALYSIS WITH MACHINE LEARNING
-### PRESENTATION SLIDES: [report.pdf](/Presentation.pdf)
+### PRESENTATION SLIDES: [project_report (pdf)](/project_report.pdf)
 
 #### **OUTPUT FILES FORMAT**
 
