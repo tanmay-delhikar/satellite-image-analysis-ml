@@ -3,7 +3,7 @@
 
 #### **OUTPUT FILES FORMAT**
 
-Corresponding folders with results for CNN, SML algorithms are generated within each of the .SAFE output folder. 
+Folders with results for CNN, SML algorithms are generated within each of the .SAFE output folder. 
 
 | Format  | Example | Use |
 | ------ | ------ | ------ |
