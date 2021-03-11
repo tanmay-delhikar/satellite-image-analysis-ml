@@ -140,7 +140,7 @@ Example:
 $ python3 sml-spop-gpw-count-generator.py -c "/netscratch/delhikar/GHS-SML/version4/config.json" -cf "/netscratch/delhikar/results_all_new/S2A_MSIL1C_20190424T101031_N0207_R022_T33VXF_20190424T153347.SAFE/SML/10m-9-built-confidence.tif" -pr "/netscratch/delhikar/results_all_new/S2A_MSIL1C_20190424T101031_N0207_R022_T33VXF_20190424T153347.SAFE/SML/10m-9-built-prediction.tif" -of "/netscratch/delhikar/results_all_new/S2A_MSIL1C_20190424T101031_N0207_R022_T33VXF_20190424T153347.SAFE/SML/"
 ```
 
-#### **SMOD**
+#### **HUMAN SETTLEMENT MODEL GRID (SMOD)**
 
 Generates SMOD product from a given BUILT (prediction/confidence) and POP products resulted from the above steps.
 
@@ -160,7 +160,7 @@ Example:
 ```sh
 $ python3 sml-smod-generator.py -cf '/netscratch/delhikar/GHS-SML/version3/italy-confidence.tif' -pr '/netscratch/delhikar/GHS-SML/version3/italy-prediction.tif' -p '/netscratch/delhikar/GHS-SML/version3/test/italy-pop.tif' -of '/netscratch/delhikar/GHS-SML/version3/30m/results'
 ```
-#### **WSF-BUILT**
+#### **WORLD SETTLEMENT FOOTPRINT (WS)-BUILT**
 
 Generates WSF based predictions for a given folder containing multitemporal scenes
 
@@ -174,3 +174,5 @@ Command:
 ```sh
 $ python3 wsf.py -c '<path to config.json>' -if <INPUT FOLDER - MULTITEMPORAL PROCESSED SCENES> 
 ```
+#### REFERENCES
+Mentioned in PRESENTATION SLIDES: [project_report (pdf)](/project_report.pdf)
