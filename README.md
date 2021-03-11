@@ -175,4 +175,4 @@ Command:
 $ python3 wsf.py -c '<path to config.json>' -if <INPUT FOLDER - MULTITEMPORAL PROCESSED SCENES> 
 ```
 #### REFERENCES
-Mentioned in PRESENTATION SLIDES: [project_report (pdf)](/project_report.pdf)
+Mentioned in project report: [project_report (pdf)](/project_report.pdf)
