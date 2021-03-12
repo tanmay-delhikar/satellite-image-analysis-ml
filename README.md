@@ -160,7 +160,7 @@ Example:
 ```sh
 $ python3 sml-smod-generator.py -cf '/netscratch/delhikar/GHS-SML/version3/italy-confidence.tif' -pr '/netscratch/delhikar/GHS-SML/version3/italy-prediction.tif' -p '/netscratch/delhikar/GHS-SML/version3/test/italy-pop.tif' -of '/netscratch/delhikar/GHS-SML/version3/30m/results'
 ```
-#### **WORLD SETTLEMENT FOOTPRINT (WS)-BUILT**
+#### **WORLD SETTLEMENT FOOTPRINT (WSF)-BUILT**
 
 Generates WSF based predictions for a given folder containing multitemporal scenes
 
